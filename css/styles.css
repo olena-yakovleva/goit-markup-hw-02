@@ -1,6 +1,6 @@
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto","Raleway", sans-serif;
     color: rgb(46, 47, 66);
 }
 ul {
@@ -25,7 +25,7 @@ a {
 
 /* ---------header-------------- */
 
-.logo {
+.logo-header {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -33,7 +33,7 @@ a {
     letter-spacing: 0.03em;
     color: #2e2f42;
 }
-.logo-color {
+.logo-header .accent {
     color: #4d5ae5;
 }
 .header-menu-link {
@@ -71,11 +71,13 @@ a {
     background: #2e2f42;
 }
 .hero-btn-main {
+    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    background: #4d5ae5;
 }
 /* ------------------------------------------- */
 /* ---------------------section 2------------- */
@@ -109,9 +111,67 @@ a {
     color: #2e2f42;
 }
 .team-card-position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.section-team {
+    background: #f4f4fd;
+}
+/* ------------------------------ */
+/* --------section 4-------------- */
+
+.portfolio {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-menu-list {
+
+}
+
+.portfolio-menu-item {
+
+}
+
+.portfolio-menu-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-menu-group {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/* ------------------------------------- */
+/* --------------footer----------------- */
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #f4f4fd;;
+}
+
+.logo-footer .accent {
+    color: #4d5ae5;
+}
+.footer {
+    background: #2e2f42;
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
